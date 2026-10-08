@@ -53,4 +53,4 @@ Tests 10, 11 and 13 are marked `test.fail` because they expose defects in the ap
 - a name over 100 characters crashes the booking page;
 - the binary search never finds an order.
 
-See section 6 of `Testing_Documentation.md`.
+Reading the code also showed that `order.php` puts the raw database error on the page when saving fails. See section 6 of `Testing_Documentation.md`.
