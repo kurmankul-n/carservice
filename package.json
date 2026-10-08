@@ -1,0 +1,12 @@
+{
+  "name": "carservice",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AutoCall mobile car service app (PHP/MySQL) with Playwright black-box tests",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0"
+  }
+}
